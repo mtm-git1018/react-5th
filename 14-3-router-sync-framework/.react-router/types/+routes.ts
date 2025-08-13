@@ -63,6 +63,10 @@ type RouteFiles = {
     id: "pages/auth/Register";
     page: "/auth/register";
   };
+  "./pages/Concerts/ConcetsLayout.tsx": {
+    id: "pages/Concerts/ConcetsLayout";
+    page: "/concerts" | "/concerts/:city" | "/concerts/trending";
+  };
   "./pages/Concerts/ConcertsHome.tsx": {
     id: "pages/Concerts/ConcertsHome";
     page: "/concerts";

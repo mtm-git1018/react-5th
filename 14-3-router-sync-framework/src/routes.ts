@@ -23,7 +23,7 @@ export default [
   ]),
 
   /* concerts */
-  ...prefix('concerts',[
+  route('concerts','./pages/Concerts/ConcetsLayout.tsx',[
     index('./pages/Concerts/ConcertsHome.tsx'),
     route(':city','./pages/Concerts/City.tsx'),
     route('trending','./pages/Concerts/Trending.tsx')

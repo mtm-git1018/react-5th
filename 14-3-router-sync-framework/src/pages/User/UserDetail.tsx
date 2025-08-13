@@ -1,6 +1,6 @@
 import type { User } from "@/@types/global";
 import { Suspense } from "react";
-import { Await, useLoaderData, useParams } from "react-router"
+import { Await, useLoaderData} from "react-router"
 
 export async function clientLoader({ params }: { params: { userId: string } }) {
   
