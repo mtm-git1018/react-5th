@@ -20,7 +20,6 @@ function Trending() {
 
   const users = useLoaderData() as User[];
 
-  console.log(users);
   
   // const fetcher = useFetcher();
 
